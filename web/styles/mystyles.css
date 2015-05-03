@@ -1,0 +1,126 @@
+/*Styles for the main frame*/
+#maingamearea {
+  /*position: relative;*/
+  width: 800px;
+}
+#div_frame {
+  margin-left: auto;
+  margin-right: auto;  
+  position: relative;
+  z-index: 1;
+  width: 800px;
+  height: 600px;
+  left: 0px;
+  /*top: 80px;*/
+}
+
+
+/*Player Styles*/
+#player {
+  z-index: 2;
+  position: absolute;
+  left: 130px;
+  top: 180px;
+}
+
+#div_player_head {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 80px;
+}
+#player_head {
+  width: 190px;
+  height: 80px;
+}
+
+#div_player_body {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 92px;
+  top: 80px;
+}
+#player_body {
+  width: 190px;
+  height: 92px;
+}
+
+#div_player_legs {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 113px;
+  top: 172px;
+}
+#player_legs {
+  width: 190px;
+  height: 113px;
+}
+
+#div_player_boots {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  top: 285px;
+}
+#player_boots {
+  width: 190px;
+  height: 40px;
+}
+
+/*Computer Styles*/
+#computer {
+  z-index: 2;
+  position: absolute;
+  left: 480px;
+  top: 180px;
+}
+
+#div_computer_head {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 80px;
+}
+#computer_head {
+  width: 190px;
+  height: 80px;
+}
+
+#div_computer_body {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 92px;
+  top: 80px;
+}
+#computer_body {
+  width: 190px;
+  height: 92px;
+}
+
+#div_computer_legs {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 113px;
+  top: 172px;
+}
+#computer_legs {
+  width: 190px;
+  height: 113px;
+}
+
+#div_computer_boots {
+  z-index: 3;
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  top: 285px;
+}
+#computer_boots {
+  width: 190px;
+  height: 40px;
+} 
